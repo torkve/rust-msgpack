@@ -791,7 +791,7 @@ pub fn from_msgpack<'a, T: Decodable<Decoder<'a>, IoError>>(bytes: Vec<u8>) -> I
 
 #[cfg(test)]
 mod test {
-    use std::collections::hashmap::HashMap;
+    use std::collections::HashMap;
     use super::{Encoder, from_msgpack};
     use serialize::Encodable;
 
